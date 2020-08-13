@@ -13,6 +13,8 @@ Such modal interfaces allow coping with fast changes of overall direction when t
 
 //========= Installation with version 3.7 =========
 
+Quarks.gui
+
 Quarks.updateDirectory;
 Quarks.install("Modality-toolkit");
 // and reboot interpreter
