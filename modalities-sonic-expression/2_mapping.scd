@@ -34,7 +34,7 @@ k.elementAt( \throt, \r ).action = { |el| x.set( \amp, el.value ); };
 x.free;
 
 SynthDef( \testSynth2, { |out=0,on=0,amp=0| Out.ar( out, SinOsc.ar( 440, 0, on * amp.lag( 0.1 ) ) ) } ).add;
-x = Synth.new( \testSynth2 );
+dx = Synth.new( \testSynth2 );
 
 // we can also add a lag on the on/off control to get an envelope:
 

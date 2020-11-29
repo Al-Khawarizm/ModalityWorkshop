@@ -78,7 +78,6 @@ Ndef( \testSynth, { arg freq=440, amp=0, t_trig=1, dur=1; SinOsc.ar( freq, 0, am
 // different curve...
 Ndef( \testSynth, { arg freq=440, amp=0, t_trig=1, dur=1; SinOsc.ar( freq, 0, amp.lag3( 0.1, 2 ) ) } );
 
-
 // variable curve
 Ndef( \testSynth, { arg freq=440, amp=0, t_trig=1, dur=1; SinOsc.ar( freq, 0, amp.varlag( 0.1, -4, 4 ) ) } ); // [VarLag] ugen
 
